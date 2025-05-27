@@ -81,10 +81,10 @@ public class AlunoDAO {
 
             // Configurar a conexão
             String server = "localhost"; //caminho do MySQL
-            String database = "db_alunos";
+            String database = "db_alunos2";
             String url = "jdbc:mysql://" + server + ":3306/" + database + "?useTimezone=true&serverTimezone=UTC";
             String user = "root";
-            String password = "root";
+            String password = "rootpass";
 
             connection = DriverManager.getConnection(url, user, password);
             // Testando..
